@@ -4,6 +4,8 @@ ui = {}
 
 function ui.apply(config)
     
+    -- position
+
     -- colorscheme
     config.color_scheme = "Catppuccin Mocha"
 
@@ -24,6 +26,7 @@ function ui.apply(config)
     }
     config.font_size = 12
     config.hide_tab_bar_if_only_one_tab = true
+    config.window_decorations = "RESIZE"
 
     config.window_padding = {
         left = 5,
